@@ -1,0 +1,3 @@
+D:/uni/code/clion/github/cpp-year2-lab2/cmake-build-debug/CMakeFiles/cpp_year2_lab2.dir
+D:/uni/code/clion/github/cpp-year2-lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/uni/code/clion/github/cpp-year2-lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
