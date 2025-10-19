@@ -248,6 +248,15 @@ cpp_year2_lab2_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 cpp_year2_lab2_SOURCE_DIR:STATIC=D:/uni/code/clion/github/cpp-year2-lab2
 
+//Value Computed by CMake
+none_of_study_BINARY_DIR:STATIC=D:/uni/code/clion/github/cpp-year2-lab2/cmake-build-debug
+
+//Value Computed by CMake
+none_of_study_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+none_of_study_SOURCE_DIR:STATIC=D:/uni/code/clion/github/cpp-year2-lab2
+
 
 ########################
 # INTERNAL cache entries

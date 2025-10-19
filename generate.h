@@ -5,10 +5,7 @@
 using namespace std;
 
 
-class generate {
-    vector<int> randomVector(size_t size, int min, int max);
-};
-
+std::vector<int> randomVector(size_t size, int min, int max);
 
 
 #endif

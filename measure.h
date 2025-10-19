@@ -20,9 +20,9 @@ void timeit(F &&f, int repeat = 1)
     auto duration = end - start;
 
     if (duration > 100000ns)
-        cout << std::format("{:%S}", duration) << " sec" << std::endl;
+        cout << std::format("{:%S}", duration) << " sec" << endl;
     else
-        cout << duration << " ns" << std::endl;
+        cout << duration << " ns" << endl;
 }
 
 

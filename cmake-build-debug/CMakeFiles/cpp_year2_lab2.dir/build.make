@@ -110,11 +110,56 @@ CMakeFiles/cpp_year2_lab2.dir/custom_none_of.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_year2_lab2.dir/custom_none_of.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\uni\code\clion\github\cpp-year2-lab2\custom_none_of.cpp -o CMakeFiles\cpp_year2_lab2.dir\custom_none_of.cpp.s
 
+CMakeFiles/cpp_year2_lab2.dir/standart.cpp.obj: CMakeFiles/cpp_year2_lab2.dir/flags.make
+CMakeFiles/cpp_year2_lab2.dir/standart.cpp.obj: D:/uni/code/clion/github/cpp-year2-lab2/standart.cpp
+CMakeFiles/cpp_year2_lab2.dir/standart.cpp.obj: CMakeFiles/cpp_year2_lab2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\uni\code\clion\github\cpp-year2-lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp_year2_lab2.dir/standart.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_year2_lab2.dir/standart.cpp.obj -MF CMakeFiles\cpp_year2_lab2.dir\standart.cpp.obj.d -o CMakeFiles\cpp_year2_lab2.dir\standart.cpp.obj -c D:\uni\code\clion\github\cpp-year2-lab2\standart.cpp
+
+CMakeFiles/cpp_year2_lab2.dir/standart.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_year2_lab2.dir/standart.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\uni\code\clion\github\cpp-year2-lab2\standart.cpp > CMakeFiles\cpp_year2_lab2.dir\standart.cpp.i
+
+CMakeFiles/cpp_year2_lab2.dir/standart.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_year2_lab2.dir/standart.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\uni\code\clion\github\cpp-year2-lab2\standart.cpp -o CMakeFiles\cpp_year2_lab2.dir\standart.cpp.s
+
+CMakeFiles/cpp_year2_lab2.dir/policy.cpp.obj: CMakeFiles/cpp_year2_lab2.dir/flags.make
+CMakeFiles/cpp_year2_lab2.dir/policy.cpp.obj: D:/uni/code/clion/github/cpp-year2-lab2/policy.cpp
+CMakeFiles/cpp_year2_lab2.dir/policy.cpp.obj: CMakeFiles/cpp_year2_lab2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\uni\code\clion\github\cpp-year2-lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp_year2_lab2.dir/policy.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_year2_lab2.dir/policy.cpp.obj -MF CMakeFiles\cpp_year2_lab2.dir\policy.cpp.obj.d -o CMakeFiles\cpp_year2_lab2.dir\policy.cpp.obj -c D:\uni\code\clion\github\cpp-year2-lab2\policy.cpp
+
+CMakeFiles/cpp_year2_lab2.dir/policy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_year2_lab2.dir/policy.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\uni\code\clion\github\cpp-year2-lab2\policy.cpp > CMakeFiles\cpp_year2_lab2.dir\policy.cpp.i
+
+CMakeFiles/cpp_year2_lab2.dir/policy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_year2_lab2.dir/policy.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\uni\code\clion\github\cpp-year2-lab2\policy.cpp -o CMakeFiles\cpp_year2_lab2.dir\policy.cpp.s
+
+CMakeFiles/cpp_year2_lab2.dir/custom.cpp.obj: CMakeFiles/cpp_year2_lab2.dir/flags.make
+CMakeFiles/cpp_year2_lab2.dir/custom.cpp.obj: D:/uni/code/clion/github/cpp-year2-lab2/custom.cpp
+CMakeFiles/cpp_year2_lab2.dir/custom.cpp.obj: CMakeFiles/cpp_year2_lab2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\uni\code\clion\github\cpp-year2-lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp_year2_lab2.dir/custom.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_year2_lab2.dir/custom.cpp.obj -MF CMakeFiles\cpp_year2_lab2.dir\custom.cpp.obj.d -o CMakeFiles\cpp_year2_lab2.dir\custom.cpp.obj -c D:\uni\code\clion\github\cpp-year2-lab2\custom.cpp
+
+CMakeFiles/cpp_year2_lab2.dir/custom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_year2_lab2.dir/custom.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\uni\code\clion\github\cpp-year2-lab2\custom.cpp > CMakeFiles\cpp_year2_lab2.dir\custom.cpp.i
+
+CMakeFiles/cpp_year2_lab2.dir/custom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_year2_lab2.dir/custom.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\uni\code\clion\github\cpp-year2-lab2\custom.cpp -o CMakeFiles\cpp_year2_lab2.dir\custom.cpp.s
+
 # Object files for target cpp_year2_lab2
 cpp_year2_lab2_OBJECTS = \
 "CMakeFiles/cpp_year2_lab2.dir/main.cpp.obj" \
 "CMakeFiles/cpp_year2_lab2.dir/generate.cpp.obj" \
-"CMakeFiles/cpp_year2_lab2.dir/custom_none_of.cpp.obj"
+"CMakeFiles/cpp_year2_lab2.dir/custom_none_of.cpp.obj" \
+"CMakeFiles/cpp_year2_lab2.dir/standart.cpp.obj" \
+"CMakeFiles/cpp_year2_lab2.dir/policy.cpp.obj" \
+"CMakeFiles/cpp_year2_lab2.dir/custom.cpp.obj"
 
 # External object files for target cpp_year2_lab2
 cpp_year2_lab2_EXTERNAL_OBJECTS =
@@ -122,11 +167,14 @@ cpp_year2_lab2_EXTERNAL_OBJECTS =
 cpp_year2_lab2.exe: CMakeFiles/cpp_year2_lab2.dir/main.cpp.obj
 cpp_year2_lab2.exe: CMakeFiles/cpp_year2_lab2.dir/generate.cpp.obj
 cpp_year2_lab2.exe: CMakeFiles/cpp_year2_lab2.dir/custom_none_of.cpp.obj
+cpp_year2_lab2.exe: CMakeFiles/cpp_year2_lab2.dir/standart.cpp.obj
+cpp_year2_lab2.exe: CMakeFiles/cpp_year2_lab2.dir/policy.cpp.obj
+cpp_year2_lab2.exe: CMakeFiles/cpp_year2_lab2.dir/custom.cpp.obj
 cpp_year2_lab2.exe: CMakeFiles/cpp_year2_lab2.dir/build.make
 cpp_year2_lab2.exe: CMakeFiles/cpp_year2_lab2.dir/linkLibs.rsp
 cpp_year2_lab2.exe: CMakeFiles/cpp_year2_lab2.dir/objects1.rsp
 cpp_year2_lab2.exe: CMakeFiles/cpp_year2_lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\uni\code\clion\github\cpp-year2-lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cpp_year2_lab2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\uni\code\clion\github\cpp-year2-lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable cpp_year2_lab2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cpp_year2_lab2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

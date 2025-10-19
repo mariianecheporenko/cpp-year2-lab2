@@ -128,6 +128,30 @@ cpp_year2_lab2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/build
 .PHONY : cpp_year2_lab2/fast
 
+custom.obj: custom.cpp.obj
+.PHONY : custom.obj
+
+# target to build an object file
+custom.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/custom.cpp.obj
+.PHONY : custom.cpp.obj
+
+custom.i: custom.cpp.i
+.PHONY : custom.i
+
+# target to preprocess a source file
+custom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/custom.cpp.i
+.PHONY : custom.cpp.i
+
+custom.s: custom.cpp.s
+.PHONY : custom.s
+
+# target to generate assembly for a file
+custom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/custom.cpp.s
+.PHONY : custom.cpp.s
+
 custom_none_of.obj: custom_none_of.cpp.obj
 .PHONY : custom_none_of.obj
 
@@ -200,6 +224,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+policy.obj: policy.cpp.obj
+.PHONY : policy.obj
+
+# target to build an object file
+policy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/policy.cpp.obj
+.PHONY : policy.cpp.obj
+
+policy.i: policy.cpp.i
+.PHONY : policy.i
+
+# target to preprocess a source file
+policy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/policy.cpp.i
+.PHONY : policy.cpp.i
+
+policy.s: policy.cpp.s
+.PHONY : policy.s
+
+# target to generate assembly for a file
+policy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/policy.cpp.s
+.PHONY : policy.cpp.s
+
+standart.obj: standart.cpp.obj
+.PHONY : standart.obj
+
+# target to build an object file
+standart.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/standart.cpp.obj
+.PHONY : standart.cpp.obj
+
+standart.i: standart.cpp.i
+.PHONY : standart.i
+
+# target to preprocess a source file
+standart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/standart.cpp.i
+.PHONY : standart.cpp.i
+
+standart.s: standart.cpp.s
+.PHONY : standart.s
+
+# target to generate assembly for a file
+standart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/standart.cpp.s
+.PHONY : standart.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -209,6 +281,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cpp_year2_lab2
+	@echo ... custom.obj
+	@echo ... custom.i
+	@echo ... custom.s
 	@echo ... custom_none_of.obj
 	@echo ... custom_none_of.i
 	@echo ... custom_none_of.s
@@ -218,6 +293,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... policy.obj
+	@echo ... policy.i
+	@echo ... policy.s
+	@echo ... standart.obj
+	@echo ... standart.i
+	@echo ... standart.s
 .PHONY : help
 
 
