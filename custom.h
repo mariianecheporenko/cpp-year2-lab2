@@ -7,8 +7,8 @@
 #include <algorithm>
 
 template <typename Iterator, typename Predicate>
-bool custom_none_of(Iterator first, Iterator last, Predicate pred, size_t num_threads);
+bool custom(Iterator first, Iterator last, Predicate pred, size_t num_threads);
 
-void measure_custom_none_of();
+void measure_custom();
 
 #endif

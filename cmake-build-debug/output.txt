@@ -1,0 +1,261 @@
+Necheporenko Mariia K-25, none_of performance study
+=====================================================
+
+
+=== Standard std::none_of (no policy) ===
+
+Testing with vector size: 1000000
+Time: 00.025962400 sec
+
+Testing with vector size: 5000000
+Time: 00.137071500 sec
+
+Testing with vector size: 10000000
+Time: 00.267488900 sec
+
+============================================
+
+
+=== std::none_of with execution policies ===
+
+Testing with vector size: 1000000
+Sequential: 00.040766000 sec
+Parallel: 00.028741600 sec
+Unsequenced: 00.029587100 sec
+Parallel unsequenced: 00.031932700 sec
+
+Testing with vector size: 5000000
+Sequential: 00.138210600 sec
+Parallel: 00.134515300 sec
+Unsequenced: 00.146977400 sec
+Parallel unsequenced: 00.148149100 sec
+
+Testing with vector size: 10000000
+Sequential: 00.277313000 sec
+Parallel: 00.278436900 sec
+Unsequenced: 00.299772700 sec
+Parallel unsequenced: 00.308644800 sec
+
+============================================
+
+
+=== Custom none_of implementation study ===
+Hardware threads available: 16
+
+--- Testing with vector size: 1000000 ---
+K (threads) | Time (ms)
+--------|----------
+00.019312500 sec
+1       | 6.366 ms
+00.012283400 sec
+2       | 5.154 ms
+00.012174700 sec
+3       | 3.849 ms
+00.011769800 sec
+4       | 4.128 ms
+00.011667600 sec
+5       | 4.043 ms
+00.013874100 sec
+6       | 4.728 ms
+00.013775400 sec
+7       | 4.295 ms
+00.016084800 sec
+8       | 5.371 ms
+00.015692700 sec
+9       | 4.893 ms
+00.015635500 sec
+10       | 5.073 ms
+00.017104400 sec
+11       | 5.668 ms
+00.017127800 sec
+12       | 6.734 ms
+00.018189300 sec
+13       | 5.961 ms
+00.019133000 sec
+14       | 5.805 ms
+00.019268600 sec
+15       | 6.668 ms
+00.020642300 sec
+16       | 7.02 ms
+00.020636100 sec
+17       | 7.461 ms
+00.022185900 sec
+18       | 7.799 ms
+00.024616100 sec
+19       | 8.432 ms
+00.024844900 sec
+20       | 8.131 ms
+00.026243800 sec
+21       | 8.898 ms
+00.026809800 sec
+22       | 9.285 ms
+00.027891400 sec
+23       | 9.446 ms
+00.027863900 sec
+24       | 9.624 ms
+00.030414800 sec
+25       | 10.757 ms
+00.033535400 sec
+26       | 10.481 ms
+00.034779500 sec
+27       | 10.83 ms
+00.034823400 sec
+28       | 12.076 ms
+00.041573100 sec
+29       | 12.255 ms
+00.037408400 sec
+30       | 11.814 ms
+00.038209400 sec
+31       | 12.292 ms
+00.040973300 sec
+32       | 13.016 ms
+Best performance with K = 3 (3.849 ms)
+Processor hardware threads = 16
+K / hw_threads ratio = 0.1875
+
+--- Testing with vector size: 5000000 ---
+K (threads) | Time (ms)
+--------|----------
+00.087303900 sec
+1       | 28.095 ms
+00.047924300 sec
+2       | 16.533 ms
+00.040735400 sec
+3       | 12.817 ms
+00.036009500 sec
+4       | 12.156 ms
+00.034076500 sec
+5       | 10.8 ms
+00.031834100 sec
+6       | 9.835 ms
+00.028804300 sec
+7       | 8.941 ms
+00.025990900 sec
+8       | 8.786 ms
+00.026910900 sec
+9       | 8.277 ms
+00.026071800 sec
+10       | 8.846 ms
+00.029971100 sec
+11       | 10.553 ms
+00.029971300 sec
+12       | 8.861 ms
+00.026650400 sec
+13       | 8.649 ms
+00.028365600 sec
+14       | 9.014 ms
+00.030402000 sec
+15       | 9.826 ms
+00.030841200 sec
+16       | 9.545 ms
+00.032644900 sec
+17       | 11.217 ms
+00.033743300 sec
+18       | 10.545 ms
+00.034367400 sec
+19       | 10.938 ms
+00.033033800 sec
+20       | 11.467 ms
+00.034292800 sec
+21       | 11.752 ms
+00.036434100 sec
+22       | 11.193 ms
+00.037425600 sec
+23       | 12.278 ms
+00.038887900 sec
+24       | 12.526 ms
+00.039388500 sec
+25       | 12.713 ms
+00.040167500 sec
+26       | 13.107 ms
+00.044179700 sec
+27       | 14.26 ms
+00.042277600 sec
+28       | 14.066 ms
+00.044712500 sec
+29       | 15.375 ms
+00.045209400 sec
+30       | 15.675 ms
+00.046323000 sec
+31       | 14.938 ms
+00.046103900 sec
+32       | 15.79 ms
+Best performance with K = 9 (8.277 ms)
+Processor hardware threads = 16
+K / hw_threads ratio = 0.5625
+
+--- Testing with vector size: 10000000 ---
+K (threads) | Time (ms)
+--------|----------
+00.168614100 sec
+1       | 67.711 ms
+00.111357200 sec
+2       | 29.767 ms
+00.078713400 sec
+3       | 21.908 ms
+00.068483100 sec
+4       | 22.623 ms
+00.060700700 sec
+5       | 18.624 ms
+00.052914500 sec
+6       | 17.161 ms
+00.048609800 sec
+7       | 17.325 ms
+00.046425200 sec
+8       | 14.644 ms
+00.042397400 sec
+9       | 14.067 ms
+00.040958200 sec
+10       | 13.41 ms
+00.039056500 sec
+11       | 12.761 ms
+00.040673400 sec
+12       | 12.337 ms
+00.039082000 sec
+13       | 12.899 ms
+00.037624000 sec
+14       | 12.895 ms
+00.039786700 sec
+15       | 12.249 ms
+00.039227800 sec
+16       | 12.79 ms
+00.045438400 sec
+17       | 15.175 ms
+00.045140900 sec
+18       | 15.405 ms
+00.047761000 sec
+19       | 15.366 ms
+00.048254200 sec
+20       | 15.664 ms
+00.048065500 sec
+21       | 15.381 ms
+00.048423900 sec
+22       | 15.779 ms
+00.047682800 sec
+23       | 16.268 ms
+00.051911200 sec
+24       | 15.895 ms
+00.052189000 sec
+25       | 16.421 ms
+00.051643600 sec
+26       | 16.731 ms
+00.063101300 sec
+27       | 21.298 ms
+00.062568200 sec
+28       | 20.062 ms
+00.058309500 sec
+29       | 19.354 ms
+00.055744200 sec
+30       | 17.733 ms
+00.056707300 sec
+31       | 18.18 ms
+00.060427200 sec
+32       | 19.023 ms
+Best performance with K = 15 (12.249 ms)
+Processor hardware threads = 16
+K / hw_threads ratio = 0.9375
+
+============================================
+
+
+All experiments completed successfully.

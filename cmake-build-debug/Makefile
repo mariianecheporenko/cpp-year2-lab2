@@ -152,30 +152,6 @@ custom.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/custom.cpp.s
 .PHONY : custom.cpp.s
 
-custom_none_of.obj: custom_none_of.cpp.obj
-.PHONY : custom_none_of.obj
-
-# target to build an object file
-custom_none_of.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/custom_none_of.cpp.obj
-.PHONY : custom_none_of.cpp.obj
-
-custom_none_of.i: custom_none_of.cpp.i
-.PHONY : custom_none_of.i
-
-# target to preprocess a source file
-custom_none_of.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/custom_none_of.cpp.i
-.PHONY : custom_none_of.cpp.i
-
-custom_none_of.s: custom_none_of.cpp.s
-.PHONY : custom_none_of.s
-
-# target to generate assembly for a file
-custom_none_of.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_year2_lab2.dir\build.make CMakeFiles/cpp_year2_lab2.dir/custom_none_of.cpp.s
-.PHONY : custom_none_of.cpp.s
-
 generate.obj: generate.cpp.obj
 .PHONY : generate.obj
 
@@ -284,9 +260,6 @@ help:
 	@echo ... custom.obj
 	@echo ... custom.i
 	@echo ... custom.s
-	@echo ... custom_none_of.obj
-	@echo ... custom_none_of.i
-	@echo ... custom_none_of.s
 	@echo ... generate.obj
 	@echo ... generate.i
 	@echo ... generate.s
